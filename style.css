@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+input,
+button,
+select {
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+button {
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+#output {
+    border: 2px solid black;
+    padding: 10px;
+    min-height: 100px;
+}

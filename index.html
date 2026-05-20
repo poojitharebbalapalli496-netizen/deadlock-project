@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deadlock Detection and Prevention</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Deadlock Detection and Prevention System</h1>
+
+<div class="container">
+
+    <label>Enter Number of Processes:</label>
+    <input type="number" id="processCount" placeholder="Enter process count">
+
+    <button onclick="generateInputs()">
+        Enter Details
+    </button>
+
+    <div id="inputs"></div>
+
+    <br>
+
+    <select id="algorithm">
+        <option value="detection">Deadlock Detection</option>
+        <option value="prevention">Deadlock Prevention</option>
+    </select>
+
+    <button onclick="runAlgorithm()">
+        Run
+    </button>
+
+    <h2>Output</h2>
+    <pre id="output"></pre>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
